@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../Constants.dart' as constant;
+
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
 
@@ -10,6 +12,13 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: constant.ColortextPrimary,
+      body: Column(
+        children: [
+
+        ],
+      ),
+    );
   }
 }
