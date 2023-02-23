@@ -16,7 +16,11 @@ class textfield extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.all(15.0),
       child: TextField(
+        style: TextStyle(
+          color: constant.dayPrimary,
+        ),
         obscureText: isPassword,
+        obscuringCharacter: '*',
         decoration: InputDecoration(
             hintText: text,
             hintStyle: TextStyle(
